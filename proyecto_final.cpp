@@ -1,5 +1,5 @@
 //Semestre 2019-2
-RCSE
+//RCSE
 //************************************************************//
 
 #include "texture.h"
@@ -29,31 +29,11 @@ GLfloat g_lookupdown = 0.0f;    // Look Position In The Z-Axis (NEW)
 CTexture text1;
 CTexture text2;
 CTexture text3;	//Flecha
-//CTexture ladrillo;
-//CTexture pisoMadera;
+
 CTexture pisoLoceta;
 CTexture pisoLocetaExt;
-//CTexture bardaRustica;
 CTexture tree;
-//CTexture palmera1;
-//CTexture palmera2;
-//CTexture pino1;
-//CTexture arbusto1;
-//CTexture savila1;
-//CTexture pvz2;
-//CTexture pvz3;
-//CTexture planta1;
-//CTexture planta2;
-//CTexture planta3;
-//CTexture planta4;
-//CTexture planta5;
-//CTexture planta6;
-//CTexture planta7;
-//CTexture planta8;
-//CTexture planta9;
-//CTexture tree1;
 CTexture pisojardin;
-
 CTexture hoja;
 CTexture door;
 CTexture pasto;
@@ -89,7 +69,6 @@ CTexture tlamp3;
 CTexture tlamp4;
 
 CFiguras sky;
-//CFiguras fig2;
 CFiguras bardas;
 CFiguras obj;  //obj prisma, obj esfera.  obj.esfera
 
@@ -968,75 +947,7 @@ void keyboard(unsigned char key, int x, int y)  // Create Keyboard Function
 		exit(0);   // Salimos del programa
 		break;
 
-	//case 'b':
-	//	pX += 0.1;
-	//	break;
-
-	//case 'B':
-	//	pX -= 0.1;
-	//	break;
-
-	//case 'n':
-	//	pY += 0.1;
-	//	break;
-
-	//case 'N':
-	//	pY -= 0.1;
-	//	break;
-
-	//case 'm':
-	//	pZ += 0.1;
-	//	break;
-
-	//case 'M':
-	//	pZ -= 0.1;
-	//	break;
-	//	///////////////////////////////////////////////////////////////////////////
-	//case 'j':
-	//	tamX += 0.01;
-	//	break;
-
-	//case 'J':
-	//	tamX -= 0.01;
-	//	break;
-
-	//case 'k':
-	//	tamY += 0.01;
-	//	break;
-
-	//case 'K':
-	//	tamY -= 0.01;
-	//	break;
-
-	//case 'l':
-	//	tamZ += 0.01;
-	//	break;
-
-	//case 'L':
-	//	tamZ -= 0.01;
-	//	break;
-
-	//case '+':
-	//	rot1 += 1.0;
-	//	break;
-
-	//case '-':
-	//	rot1 -= 1.0;
-	//	break;
-
-	//case 'P':
-	//case 'p':
-	//	printf("tamX %f\n", tamX);
-	//	printf("tamY %f\n", tamY);
-	//	printf("tamZ %f\n", tamZ);
-
-	//	printf("posX %f\n", pX);
-	//	printf("posY %f\n", pY);
-	//	printf("posZ %f\n", pZ);
-
-	//	printf("Rot %f\n", rot);
-	//	break;
-
+	
 
 	default:        // Cualquier otra
 		break;
